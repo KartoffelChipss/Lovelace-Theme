@@ -2,7 +2,7 @@
     "name": "LoveLace Dark",
     "dark": true,
     "author": "Jan Straßburger",
-    "editorScheme": "/LovelaceDark.xml",
+    "editorScheme": "/LoveLace.xml",
     "parentTheme": "ExperimentalDark",
 
     "ui": {

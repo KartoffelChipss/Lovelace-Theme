@@ -1,0 +1,122 @@
+<scheme name="LoveLace" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2025-11-12T12:00:00</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2025.1.0</property>
+  </metaInfo>
+  <colors>
+    <!-- Base UI colors -->
+    <option name="CARET_COLOR" value="FFFFFF"/>
+    <option name="CARET_ROW_COLOR" value="2A2C36"/>
+    <option name="CONSOLE_BACKGROUND_KEY" value="1D1F28"/>
+    <option name="GUTTER_BACKGROUND" value="1D1F28"/>
+    <option name="LINE_NUMBERS_COLOR" value="7F808C"/>
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="FFFFFF"/>
+    <option name="SELECTION_BACKGROUND" value="3A3C47"/>
+    <option name="RIGHT_MARGIN_COLOR" value="555566"/>
+    <option name="VISUAL_INDENT_GUIDE" value="555566"/>
+    <option name="INDENT_GUIDE" value="444455"/>
+
+    <!-- Diff/Version Control -->
+    <option name="ADDED_LINES_COLOR" value="3CB371"/>
+    <option name="DELETED_LINES_COLOR" value="FF7F50"/>
+    <option name="MODIFIED_LINES_COLOR" value="87CEFA"/>
+
+    <!-- Terminal colors (iTerm-inspired) -->
+    <option name="CONSOLE_NORMAL_OUTPUT" value="DCDCDC"/>
+    <option name="CONSOLE_BLUE_OUTPUT" value="5AA6FF"/>
+    <option name="CONSOLE_CYAN_OUTPUT" value="4DD0E1"/>
+    <option name="CONSOLE_GREEN_OUTPUT" value="A4D490"/>
+    <option name="CONSOLE_RED_OUTPUT" value="FF6B6B"/>
+    <option name="CONSOLE_YELLOW_OUTPUT" value="FFD479"/>
+    <option name="CONSOLE_MAGENTA_OUTPUT" value="D081FF"/>
+    <option name="CONSOLE_ERROR_OUTPUT" value="FF5C57"/>
+
+    <!-- Scrollbar -->
+    <option name="ScrollBar.background" value="1D1F28"/>
+    <option name="ScrollBar.thumbColor" value="5E5F70"/>
+    <option name="ScrollBar.thumbBorderColor" value="3A3C47"/>
+  </colors>
+
+  <attributes>
+
+    <!-- Default code text -->
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="DCDCDC"/>
+        <option name="BACKGROUND" value="1D1F28"/>
+      </value>
+    </option>
+
+    <!-- Keywords -->
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C678DD"/>
+      </value>
+    </option>
+
+    <!-- Strings -->
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="A4D490"/>
+      </value>
+    </option>
+
+    <!-- Comments -->
+    <option name="DEFAULT_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080"/>
+        <option name="FONT_TYPE" value="2"/>
+      </value>
+    </option>
+
+    <!-- Numbers -->
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="5AA6FF"/>
+      </value>
+    </option>
+
+    <!-- Functions -->
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="61AFEF"/>
+      </value>
+    </option>
+
+    <!-- Classes / Types -->
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="D081FF"/>
+      </value>
+    </option>
+
+    <!-- Errors / Warnings -->
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="FF5C57"/>
+        <option name="EFFECT_TYPE" value="4"/>
+      </value>
+    </option>
+    <option name="WARNING_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="FFD479"/>
+        <option name="BACKGROUND" value="3A3C47"/>
+      </value>
+    </option>
+
+    <!-- Matching braces -->
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5AA6FF"/>
+      </value>
+    </option>
+
+    <!-- Unmatched braces -->
+    <option name="UNMATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="FF6B6B"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>
