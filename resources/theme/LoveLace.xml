@@ -64,7 +64,7 @@
     <!-- Text -->
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="A3A9B6"/>
         <option name="BACKGROUND" value="1D1F28"/>
       </value>
     </option>
@@ -266,7 +266,7 @@
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FOREGROUND" value="A3A9B6"/>
         <option name="EFFECT_COLOR" value="888888"/>
         <option name="EFFECT_TYPE" value="4"/>
       </value>
