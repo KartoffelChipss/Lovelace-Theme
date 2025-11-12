@@ -20,8 +20,8 @@
     <option name="MODIFIED_LINES_COLOR" value="87CEFA"/>
     <option name="ADDED_LINES_COLOR" value="3CB371"/>
     <option name="DELETED_LINES_COLOR" value="FF7F50"/>
-    <option name="DOCUMENTATION_COLOR" value="606060"/>
-    <option name="LOOKUP_COLOR" value="606060"/>
+    <option name="DOCUMENTATION_COLOR" value="1D1F28"/>
+    <option name="LOOKUP_COLOR" value="1D1F28"/>
     <option name="ERROR_HINT" value="FF6B6B"/>
     <option name="FILESTATUS_ADDED" value="3CB371"/>
     <option name="FILESTATUS_DELETED" value="FF7F50"/>
