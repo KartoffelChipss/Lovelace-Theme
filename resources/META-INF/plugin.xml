@@ -17,7 +17,7 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        A dark, pinkk, purple and blue theme for JetBrains IDEs based on the LoveLace theme for iTerm2.
+        A dark theme for JetBrains IDEs featuring shades of pink, purple, and blue, inspired by the LoveLace theme for iTerm2.
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
