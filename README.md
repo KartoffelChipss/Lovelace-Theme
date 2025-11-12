@@ -1,4 +1,4 @@
-# LoveLace Jetbrains Theme
+# LoveLace Theme for Jetbrains
 
 A dark theme for JetBrains IDEs featuring shades of pink, purple, and blue, inspired by the LoveLace theme for iTerm2.
 
