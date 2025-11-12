@@ -181,8 +181,8 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="FFD479"/>
-        <option name="BACKGROUND" value="3A3C47"/>
+        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="FFD479"/>
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
