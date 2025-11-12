@@ -6,19 +6,18 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
-    <name>LoveLace-Theme</name>
+    <name>LoveLace Theme</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor url="https://strassburger.org/">Jan Straßburger</vendor>
 
     <idea-version since-build="251"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Enter short description for your theme here.<br>
-        <em>most HTML tags may be used</em>
+        A dark, pinkk, purple and blue theme for JetBrains IDEs based on the LoveLace theme for iTerm2.
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
