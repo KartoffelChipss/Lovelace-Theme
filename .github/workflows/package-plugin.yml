@@ -1,0 +1,47 @@
+name: Package Theme
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Ensure build directories
+        run: mkdir -p build/distributions
+
+      - name: Validate plugin.xml exists
+        run: |
+          if [ ! -f "resources/META-INF/plugin.xml" ]; then
+            echo "ERROR: resources/META-INF/plugin.xml not found"
+            exit 1
+          fi
+
+      - name: Create plugin jar
+        run: |
+          PLUGIN_ID="LoveLace-Theme"
+          PLUGIN_VERSION=$(xmllint --xpath "string(//version)" resources/META-INF/plugin.xml 2>/dev/null || echo "0.0.0")
+          OUTNAME="${PLUGIN_ID}-${PLUGIN_VERSION}.jar"
+          (cd resources && jar cf "../build/distributions/${OUTNAME}" .)
+          echo "Created build/distributions/$OUTNAME"
+
+      - name: List artifact
+        run: ls -l build/distributions
+
+      - name: Upload plugin artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-distribution
+          path: build/distributions/*.jar
