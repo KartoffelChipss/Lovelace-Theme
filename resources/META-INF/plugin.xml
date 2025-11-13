@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>org.strassburger.lovelace</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -23,6 +23,12 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
+        <b>Version 1.0.2:</b>
+        <ul>
+            <li>Matched braces now have a blue border around them for better visibility</li>
+            <li>The line between matched braces has been changed to grey to reduce visual clutter</li>
+        </ul>
+
         <b>Version 1.0.1:</b>
         <ul>
             <li>Adjusted base text color</li>
