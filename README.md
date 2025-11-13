@@ -31,7 +31,7 @@ A dark theme for JetBrains IDEs featuring shades of pink, purple, and blue, insp
 
 ### 2. Manual Installation (from downloaded plugin file)
 
-1. Download the latest plugin jar file from the [GitHub Releases page](https://github.com/KartoffelChipss/LoveLace-Theme).
+1. Download the latest theme jar file from the [GitHub Releases page](https://github.com/KartoffelChipss/LoveLace-Theme/releases).
 2. Open your JetBrains IDE.
 3. Go to **Settings / Preferences**:
     - Windows/Linux: `File → Settings`
