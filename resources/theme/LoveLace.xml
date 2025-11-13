@@ -61,6 +61,16 @@
   </colors>
 
   <attributes>
+    <!--
+    Possible EFFECT_TYPE values:
+    0 - Boxed
+    1 - Underline
+    2 - Squiggly underline
+    3 - Strikethrough
+    4 - Weird other underline
+    5 - another wird underline?
+     -->
+
     <!-- Text -->
     <option name="TEXT">
       <value>
@@ -195,8 +205,10 @@
     <!-- Matching braces -->
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="4F83BF"/>
+        <option name="BACKGROUND" value="3A3C47" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" value="4F83BF" />
       </value>
     </option>
 
