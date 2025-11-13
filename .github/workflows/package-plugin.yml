@@ -19,6 +19,9 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+
       - name: Ensure build directories
         run: mkdir -p build/distributions
 
