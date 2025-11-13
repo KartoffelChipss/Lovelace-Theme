@@ -1,5 +1,8 @@
 # LoveLace Theme for Jetbrains
 
+[![JetBrains Plugin Version](https://img.shields.io/jetbrains/plugin/v/28999?label=Version)](https://plugins.jetbrains.com/plugin/28999-lovelace-theme)
+[![JetBrains Plugin Downloads](https://img.shields.io/jetbrains/plugin/d/28999?label=Downloads)](https://plugins.jetbrains.com/plugin/28999-lovelace-theme)
+
 A dark theme for JetBrains IDEs featuring shades of pink, purple, and blue, inspired by the LoveLace theme for iTerm2.
 
 ![Preview](./.github/assets/lovelace_preview.webp)
