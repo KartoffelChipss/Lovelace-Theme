@@ -204,6 +204,18 @@
       </value>
     </option>
 
+    <!-- Annotations -->
+    <option name="ANNOTATION_NAME_ATTRIBUTES"><!-- Annotation names -->
+      <value>
+        <option name="FOREGROUND" value="FFD479"/>
+      </value>
+    </option>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES"><!-- Annotation attribute names -->
+      <value>
+        <option name="FOREGROUND" value="A3A9B6"/>
+      </value>
+    </option>
+
     <!-- Matching braces -->
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
