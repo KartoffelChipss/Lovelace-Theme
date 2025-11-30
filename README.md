@@ -5,7 +5,7 @@
 
 A dark theme for JetBrains IDEs featuring shades of pink, purple, and blue, inspired by the LoveLace theme for iTerm2.
 
-![Preview](./.github/assets/lovelace_preview.webp)
+![Preview](./.github/assets/lovelace_preview_new.webp)
 
 <table>
   <tr>
