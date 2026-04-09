@@ -51,5 +51,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="LoveLace-Theme" path="/theme/LoveLaceTheme.theme.json"/>
+        <themeProvider id="LoveLace-Theme-Light" path="/theme/LoveLaceThemeLight.theme.json"/>
     </extensions>
 </idea-plugin>
